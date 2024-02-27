@@ -1,12 +1,14 @@
-apt update && apt install golang-go -y && go install github.com/tomnomnom/gf@latest && mv /root/go/bin/gf /usr/bin && git clone https://github.com/thpereira1/gf-patterns.git
-
+apt update
+apt install golang-go -y
+go install github.com/tomnomnom/gf@latest
+git clone https://github.com/thpereira1/gf-patterns.git
+cd gf-patterns
 mkdir -p "$HOME/.gf"
-mv gf-patterns/*.json "/$HOME/.gf"
-rm -r gf-pattenrs
+mv *.json "/$HOME/.gf"
+cd ..
+rm -r gf-patterns
 echo ""
 echo ""
-echo ""
-echo "------------------"
+echo "----------"
 echo "gf -list"
-echo "------------------"
-
+echo "----------"
