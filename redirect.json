@@ -3,6 +3,7 @@
      "patterns": [
 "Lmage_url=",
 "Open=",
+"r=",
 "callback=",
 "cgi-bin/redirect.cgi",
 "cgi-bin/redirect.cgi?",
