@@ -2,6 +2,7 @@
      "flags": "-iE", 
      "patterns": [
 "q=",
+"r=",
 "s=",
 "search=",
 "lang=",
